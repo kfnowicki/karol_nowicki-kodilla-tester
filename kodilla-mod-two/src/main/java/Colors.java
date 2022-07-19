@@ -23,7 +23,7 @@ public class Colors {
 
     public static void main(String[] args){
         Alphabet letter = Colors.getFirstCharacter();
-        ColorList color = Colors.getColor(letter);
+        ColorList color = Colors.getColor(letter); // Question about good practice - is Colors.getColor(Colors.getFirstCharacter()) ok?
         Colors.displayColor(color);
     }
 
@@ -36,7 +36,7 @@ public class Colors {
                 return;
             }
             System.out.println("We don't know any letter connected with your letter, please try again");
-            Alphabet letter1 = Colors.getFirstCharacter(); //How to debug loop, where we need to scan value once again?
+            Alphabet letter1 = Colors.getFirstCharacter(); //How to debug loop,when we need to scan value once again?
             readColor = Colors.getColor(letter1);
         }
     }
