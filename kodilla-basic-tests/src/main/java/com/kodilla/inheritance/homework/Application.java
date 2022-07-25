@@ -1,6 +1,6 @@
 package com.kodilla.inheritance.homework;
 
-public class HomeworkApplication {
+public class Application {
 
     public static void main(String[] args){
         OperatingSysetem randomSystem = new OperatingSysetem(1990);
