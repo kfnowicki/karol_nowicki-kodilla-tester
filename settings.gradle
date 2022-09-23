@@ -9,4 +9,6 @@ findProject(':kodilla-basic-tests:kodilla-stream')?.name = 'kodilla-stream'
 include 'kodilla-basic-tests:kodilla-stream'
 findProject(':kodilla-basic-tests:kodilla-stream')?.name = 'kodilla-stream'
 include 'kodilla-stream'
+include 'kodilla-advanced-tests'
+include 'kodilla-advanced-tests'
 
